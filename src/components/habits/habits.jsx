@@ -24,7 +24,7 @@ const Habits = ({
           />
         ))}
       </ul>
-      <button className="habits-reset" onClick={onReset}>
+      <button className="habits-reset" onClick={onReset} data-id="reset-all">
         Reset All
       </button>
     </div>

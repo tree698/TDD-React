@@ -6,11 +6,13 @@ exports[`Habit Component renders 1`] = `
 >
   <span
     className="habit-name"
+    data-testid="habit-name"
   >
     Reading
   </span>
   <span
     className="habit-count"
+    data-testid="habit-count"
   >
     1
   </span>
