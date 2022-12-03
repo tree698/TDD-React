@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll",
+    "cypress": "cypress open",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "@types/jest": "^29.2.2",
+    "cypress": "^11.1.0",
     "react-test-renderer": "^16.8.4"
   }
 }
