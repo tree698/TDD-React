@@ -70,8 +70,8 @@ describe('HabitPresenter', () => {
       const habits = presenter.getHabits();
       presenter.reset(update);
       const updatedHabits = presenter.getHabits();
-      expect(updatedHabits[1]).toBe(habits[1]);
-      expect(updatedHabits[1]).toEqual(habits[1]); //always success
+      expect(updatedHabits[1]).toBe(habits[1]); // object의 참조값을 비교하므로 새로운 object를 만들지 않음
+      expect(updatedHabits[1]).toEqual(habits[1]); // object를 비교하므로 always success
     });
   });
 

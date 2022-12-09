@@ -35,6 +35,7 @@ export default class HabitPresenter {
   }
 
   add(name, update) {
+    // 로직을 추가할 수 있다
     if (this.habits.length === this.maxHabit) {
       throw new Error(`습관의 개수는 ${this.maxHabit}개 이상이 될수 없습니다`);
     }
@@ -48,7 +49,7 @@ export default class HabitPresenter {
         return { ...habit, count: 0 };
       }
       return habit;
-      //   return { ...habit, count: 0 };
+      //   return { ...habit, count: 0 };  // object를 새로 만든다
     });
     update(this.habits);
   }
