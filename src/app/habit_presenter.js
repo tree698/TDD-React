@@ -1,3 +1,6 @@
+/** HabitPresenter:
+ * UI에서 보여지는 비즈니스 로직을 담고 있음*/
+
 export default class HabitPresenter {
   constructor(habits, maxHabit) {
     this.habits = habits;
