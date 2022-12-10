@@ -3,3 +3,6 @@ coverage/*
 .DS_Store
 .yarnrc.yml
 .yarn
+
+cypress/e2e/1-getting-started
+cypress/e2e/2-advanced-examples
